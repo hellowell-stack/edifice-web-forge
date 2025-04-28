@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Building, Construction, Hammer, Wrench, Tools, Layers } from 'lucide-react';
+import { Building, Construction, Hammer, Wrench, Cog, Layers } from 'lucide-react';
 
 const ServicesSection = () => {
   const services = [
@@ -30,7 +30,7 @@ const ServicesSection = () => {
       link: "/services#infrastructure"
     },
     {
-      icon: <Tools className="h-8 w-8" />,
+      icon: <Cog className="h-8 w-8" />,
       title: "Project Management",
       description: "Comprehensive project management services ensuring your project is completed on time, within budget, and to specification.",
       link: "/services#management"
