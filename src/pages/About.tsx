@@ -2,7 +2,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { Users, Award, Clock, Calendar, Building, Check } from 'lucide-react';
+import { Users, Award, Clock, Calendar, Building, Check, Leaf, Star, Compass } from 'lucide-react';
 
 const About = () => {
   return (
@@ -20,274 +20,193 @@ const About = () => {
         </div>
         <div className="container-custom relative z-10 text-white">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About BuildForge</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Soyami Engineering</h1>
             <p className="text-xl mb-4 text-gray-100">
               Building a legacy of excellence in construction and engineering.
             </p>
           </div>
         </div>
       </section>
-      
-      {/* Company Overview */}
+
+      {/* Vision & Mission Section */}
       <section className="section-padding bg-white">
         <div className="container-custom">
-          <div className="flex flex-col lg:flex-row gap-12 items-center">
-            <div className="lg:w-1/2">
-              <h2 className="section-title">Our Company</h2>
-              <p className="section-subtitle">Building Excellence Since 1998</p>
-              
-              <p className="mb-6 text-construction-gray">
-                BuildForge was founded with a vision to redefine the standards of construction and engineering. For over 25 years, we've been delivering exceptional projects across commercial, industrial, and infrastructure sectors, earning a reputation for quality, reliability, and innovation.
-              </p>
-              
-              <p className="mb-6 text-construction-gray">
-                Our approach combines technical expertise with creative problem-solving, allowing us to tackle the most challenging projects with confidence. We believe in sustainable building practices, cutting-edge technology, and fostering strong client relationships built on trust and transparency.
-              </p>
-              
-              <p className="text-construction-gray">
-                Today, BuildForge stands as a leader in the industry, with a portfolio of successful projects that showcase our commitment to excellence and our ability to bring our clients' visions to life.
-              </p>
-            </div>
-            
-            <div className="lg:w-1/2">
-              <div className="grid grid-cols-2 gap-6">
-                <div className="rounded-lg overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?auto=format&fit=crop&q=80" 
-                    alt="Office building" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                
-                <div className="rounded-lg overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1439337153520-7082a56a81f4?auto=format&fit=crop&q=80" 
-                    alt="Construction site" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                
-                <div className="rounded-lg overflow-hidden col-span-2">
-                  <img 
-                    src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&q=80" 
-                    alt="Team meeting" 
-                    className="w-full h-[300px] object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Stats Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container-custom">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-construction-blue mb-2">25+</div>
-              <p className="text-construction-gray font-medium">Years of Experience</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-construction-blue mb-2">500+</div>
-              <p className="text-construction-gray font-medium">Projects Completed</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-construction-blue mb-2">120+</div>
-              <p className="text-construction-gray font-medium">Team Members</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-construction-blue mb-2">98%</div>
-              <p className="text-construction-gray font-medium">Client Satisfaction</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Our Mission and Values */}
-      <section className="section-padding bg-white">
-        <div className="container-custom">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="section-title">Our Mission & Values</h2>
-            <p className="section-subtitle">The Principles That Guide Our Work</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            {/* Mission */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="bg-gray-50 p-8 rounded-lg border-l-4 border-construction-blue">
-              <h3 className="text-2xl font-bold mb-4 text-construction-darkBlue">Our Mission</h3>
+              <h2 className="text-3xl font-bold mb-6 text-construction-darkBlue">Our Vision</h2>
               <p className="text-construction-gray">
-                Our mission is to deliver exceptional construction and engineering solutions that exceed client expectations, contribute positively to communities, and set new standards of excellence in the industry. We strive to create structures that are not only visually impressive and functionally superior but also sustainable and built to last for generations.
+                "To be a leading force in transforming Nepal's infrastructure with quality, innovation, and sustainability — building not just structures, but a stronger future for generations to come."
               </p>
             </div>
             
-            {/* Vision */}
             <div className="bg-gray-50 p-8 rounded-lg border-l-4 border-construction-yellow">
-              <h3 className="text-2xl font-bold mb-4 text-construction-darkBlue">Our Vision</h3>
-              <p className="text-construction-gray">
-                We aspire to be the premier construction and engineering firm, recognized globally for our innovative approach, technical expertise, and unwavering commitment to quality. We envision a future where BuildForge projects stand as landmarks of excellence, where our team members thrive professionally, and where our business practices contribute to a more sustainable built environment.
-              </p>
-            </div>
-          </div>
-          
-          {/* Values */}
-          <div>
-            <h3 className="text-2xl font-bold mb-8 text-center text-construction-darkBlue">Our Core Values</h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center p-6">
-                <div className="bg-construction-blue text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Check size={28} />
-                </div>
-                <h4 className="text-xl font-bold mb-3 text-construction-darkBlue">Integrity</h4>
-                <p className="text-construction-gray">
-                  We conduct business with honesty, transparency, and ethical standards that build trust with our clients, partners, and communities.
-                </p>
-              </div>
-              
-              <div className="text-center p-6">
-                <div className="bg-construction-blue text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Award size={28} />
-                </div>
-                <h4 className="text-xl font-bold mb-3 text-construction-darkBlue">Excellence</h4>
-                <p className="text-construction-gray">
-                  We pursue excellence in every aspect of our work, from planning and design to construction and project management.
-                </p>
-              </div>
-              
-              <div className="text-center p-6">
-                <div className="bg-construction-blue text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Users size={28} />
-                </div>
-                <h4 className="text-xl font-bold mb-3 text-construction-darkBlue">Teamwork</h4>
-                <p className="text-construction-gray">
-                  We believe in the power of collaboration, bringing together diverse talents and perspectives to achieve exceptional results.
-                </p>
-              </div>
-              
-              <div className="text-center p-6">
-                <div className="bg-construction-blue text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Calendar size={28} />
-                </div>
-                <h4 className="text-xl font-bold mb-3 text-construction-darkBlue">Reliability</h4>
-                <p className="text-construction-gray">
-                  We consistently deliver on our promises, meeting deadlines and budgets without compromising on quality or safety.
-                </p>
-              </div>
-              
-              <div className="text-center p-6">
-                <div className="bg-construction-blue text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Building size={28} />
-                </div>
-                <h4 className="text-xl font-bold mb-3 text-construction-darkBlue">Innovation</h4>
-                <p className="text-construction-gray">
-                  We embrace new technologies, methods, and ideas that advance the construction industry and deliver better outcomes for our clients.
-                </p>
-              </div>
-              
-              <div className="text-center p-6">
-                <div className="bg-construction-blue text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Clock size={28} />
-                </div>
-                <h4 className="text-xl font-bold mb-3 text-construction-darkBlue">Sustainability</h4>
-                <p className="text-construction-gray">
-                  We are committed to environmentally responsible practices that minimize our ecological footprint and create healthier built environments.
-                </p>
-              </div>
+              <h2 className="text-3xl font-bold mb-6 text-construction-darkBlue">Our Mission</h2>
+              <ul className="space-y-4 text-construction-gray">
+                <li className="flex items-start gap-2">
+                  <Check className="text-construction-blue mt-1 flex-shrink-0" />
+                  <span>To deliver high-quality construction services that exceed client expectations through commitment, expertise, and continuous improvement.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="text-construction-blue mt-1 flex-shrink-0" />
+                  <span>To embrace technology and innovation to enhance project efficiency, safety, and durability.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="text-construction-blue mt-1 flex-shrink-0" />
+                  <span>To foster a culture of teamwork, respect, and professionalism among our employees, partners, and clients.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="text-construction-blue mt-1 flex-shrink-0" />
+                  <span>To lead sustainable construction practices that respect the environment and support community development.</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Leadership */}
+      {/* Our Approach Section */}
       <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="section-title">Our Leadership Team</h2>
-            <p className="section-subtitle">The Experts Behind Our Success</p>
-            <p className="text-construction-gray">
-              Our company is led by a team of experienced professionals with decades of combined expertise in construction, engineering, and project management.
-            </p>
+            <h2 className="section-title">Our Approach</h2>
+            <p className="section-subtitle">Building Trust, Quality, and a Better Future</p>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg overflow-hidden shadow-lg">
-              <div className="h-64 overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80" 
-                  alt="CEO" 
-                  className="w-full h-full object-cover"
-                />
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: <Users />,
+                title: "Client-First Philosophy",
+                description: "We listen, understand, and deliver. Every project begins with understanding our client's vision and needs."
+              },
+              {
+                icon: <Award />,
+                title: "Commitment to Quality",
+                description: "We never compromise on quality. From materials to skills, every detail reflects our dedication."
+              },
+              {
+                icon: <Compass />,
+                title: "Technology and Innovation",
+                description: "We embrace modern machinery and smart techniques to improve efficiency, safety, and precision."
+              },
+              {
+                icon: <Users />,
+                title: "Skilled Teamwork",
+                description: "Our engineers, supervisors, operators, and workers collaborate seamlessly for outstanding results."
+              },
+              {
+                icon: <Clock />,
+                title: "On-Time Delivery",
+                description: "With careful planning and proactive management, we ensure every milestone is met without delay."
+              },
+              {
+                icon: <Leaf />,
+                title: "Sustainable Practices",
+                description: "We focus on reducing waste, conserving resources, and promoting eco-friendly construction methods."
+              }
+            ].map((item, index) => (
+              <div key={index} className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                <div className="text-construction-blue mb-4">
+                  {item.icon}
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-construction-darkBlue">{item.title}</h3>
+                <p className="text-construction-gray">{item.description}</p>
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-1 text-construction-darkBlue">Robert Johnson</h3>
-                <p className="text-construction-yellow font-medium mb-4">Founder & CEO</p>
-                <p className="text-construction-gray text-sm">
-                  With over 30 years of experience in construction and engineering, Robert has led BuildForge from a small local contractor to a regional leader in the industry.
-                </p>
-              </div>
-            </div>
-            
-            <div className="bg-white rounded-lg overflow-hidden shadow-lg">
-              <div className="h-64 overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80" 
-                  alt="COO" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-1 text-construction-darkBlue">Emily Chen</h3>
-                <p className="text-construction-yellow font-medium mb-4">Chief Operations Officer</p>
-                <p className="text-construction-gray text-sm">
-                  Emily brings extensive expertise in project management and operational efficiency, ensuring that every BuildForge project is delivered with precision and excellence.
-                </p>
-              </div>
-            </div>
-            
-            <div className="bg-white rounded-lg overflow-hidden shadow-lg">
-              <div className="h-64 overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80" 
-                  alt="Chief Engineer" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-1 text-construction-darkBlue">Michael Rodriguez</h3>
-                <p className="text-construction-yellow font-medium mb-4">Chief Engineer</p>
-                <p className="text-construction-gray text-sm">
-                  Michael's innovative approach to engineering challenges and deep technical knowledge has been instrumental in BuildForge's most complex and ambitious projects.
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
-      
-      {/* CTA Section */}
-      <section className="py-20 bg-construction-blue text-white">
+
+      {/* Core Values Section */}
+      <section className="section-padding bg-white">
         <div className="container-custom">
-          <div className="text-center max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Work With Us?</h2>
-            <p className="text-xl mb-8">
-              Partner with BuildForge for your next construction or engineering project and experience the difference our expertise makes.
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="section-title">Our Core Values</h2>
+            <p className="text-construction-gray">
+              At Soyami Engineering and Construction Pvt. Ltd., our values guide every brick we lay, every road we build, and every future we shape.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <a href="/contact" className="btn-accent">
-                Contact Us Today
-              </a>
-              <a href="/services" className="bg-white text-construction-blue hover:bg-construction-yellow hover:text-black font-semibold py-3 px-6 rounded-md transition-all duration-300 inline-block">
-                Explore Our Services
-              </a>
-            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: <Star />,
+                title: "Integrity",
+                description: "We act with honesty, fairness, and responsibility, building trust with our clients, partners, and community."
+              },
+              {
+                icon: <Award />,
+                title: "Excellence",
+                description: "We are committed to delivering the highest standards of workmanship, ensuring quality in every project."
+              },
+              {
+                icon: <Compass />,
+                title: "Innovation",
+                description: "We believe in continuous learning and adapting new technologies for smarter, sustainable solutions."
+              },
+              {
+                icon: <Users />,
+                title: "Teamwork",
+                description: "We collaborate, respect, and support each other, knowing that strong teams build stronger results."
+              },
+              {
+                icon: <Leaf />,
+                title: "Sustainability",
+                description: "We promote eco-friendly practices, ensuring our projects contribute positively to environment and society."
+              }
+            ].map((value, index) => (
+              <div key={index} className="text-center p-6">
+                <div className="bg-construction-blue text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  {value.icon}
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-construction-darkBlue">{value.title}</h4>
+                <p className="text-construction-gray">{value.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
       
+      {/* Management Section */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-custom">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="section-title">Our Management</h2>
+            <p className="text-construction-gray">
+              Led by a dynamic group of experienced professionals who bring together expertise in engineering, project management, finance, and innovation.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: <Compass />,
+                title: "Strategic Leadership",
+                description: "Our management team sets clear goals, ensures strong planning, and drives the company towards sustainable growth and excellence."
+              },
+              {
+                icon: <Building />,
+                title: "Project Oversight",
+                description: "From concept to completion, every project is personally overseen by our leaders to maintain quality, timelines, and client satisfaction."
+              },
+              {
+                icon: <Users />,
+                title: "Team Development",
+                description: "We believe in empowering our people. Regular training, mentorship, and professional development are at the heart of our culture."
+              }
+            ].map((item, index) => (
+              <div key={index} className="bg-white p-8 rounded-lg shadow-lg">
+                <div className="text-construction-blue mb-4">
+                  {item.icon}
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-construction-darkBlue">{item.title}</h3>
+                <p className="text-construction-gray">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
