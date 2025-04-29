@@ -7,6 +7,8 @@ import VisionMission from '../components/about/VisionMission';
 import OurApproach from '../components/about/OurApproach';
 import CoreValues from '../components/about/CoreValues';
 import Management from '../components/about/Management';
+import Equipment from '../components/about/Equipment';
+import ProjectsPreview from '../components/about/ProjectsPreview';
 
 const About = () => {
   return (
@@ -17,6 +19,8 @@ const About = () => {
       <OurApproach />
       <CoreValues />
       <Management />
+      <Equipment />
+      <ProjectsPreview />
       <Footer />
     </div>
   );
