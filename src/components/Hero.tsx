@@ -20,18 +20,18 @@ const Hero = () => {
       <div className="container-custom relative z-10 text-white">
         <div className="max-w-3xl animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Building Tomorrow's <span className="text-construction-yellow">Infrastructure</span> Today
+            Nigalaghari & Khotro <span className="text-construction-yellow">Construction</span> Projects
           </h1>
           <p className="text-lg md:text-xl mb-8 text-gray-100">
-            We combine innovation, precision, and decades of expertise to deliver exceptional construction and engineering solutions with integrity and durability.
+            Building Strength Where It Matters Most. Specializing in gabion walls, stone masonry, and concrete structures in Nepal's challenging terrain.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link to="/services" className="btn-accent flex items-center gap-2">
-              <span>Our Services</span>
+            <Link to="/projects" className="btn-accent flex items-center gap-2">
+              <span>View Projects</span>
               <ArrowRight size={18} />
             </Link>
-            <Link to="/projects" className="btn-primary">
-              View Our Projects
+            <Link to="/contact" className="btn-primary">
+              Contact Us
             </Link>
           </div>
         </div>

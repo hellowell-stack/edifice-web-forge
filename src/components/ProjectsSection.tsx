@@ -1,36 +1,37 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 
 const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "Summit Tower",
-      category: "Commercial Construction",
-      image: "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?auto=format&fit=crop&q=80",
-      link: "/projects/summit-tower"
+      title: "Gabion Wall Construction",
+      category: "Nigalaghari Site",
+      image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80",
+      link: "/projects/nigalaghari"
     },
     {
       id: 2,
-      title: "Riverfront Bridge",
-      category: "Infrastructure",
-      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&q=80",
-      link: "/projects/riverfront-bridge"
+      title: "Stone Masonry Retaining Wall",
+      category: "Nigalaghari Site",
+      image: "https://images.unsplash.com/photo-1508345228704-935cc84bf5e2?auto=format&fit=crop&q=80",
+      link: "/projects/nigalaghari"
     },
     {
       id: 3,
-      title: "Nexus Research Facility",
-      category: "Industrial Engineering",
-      image: "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?auto=format&fit=crop&q=80",
-      link: "/projects/nexus-research-facility"
+      title: "Drain Wall Construction",
+      category: "Nigalaghari Site",
+      image: "https://images.unsplash.com/photo-1621143759985-90a66d4a3b5f?auto=format&fit=crop&q=80",
+      link: "/projects/nigalaghari"
     },
     {
       id: 4,
-      title: "Metro Transit Hub",
-      category: "Public Works",
+      title: "Gabion Wall Construction",
+      category: "Khotro Site",
       image: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&q=80",
-      link: "/projects/metro-transit-hub"
+      link: "/projects/khotro"
     }
   ];
 
@@ -39,9 +40,9 @@ const ProjectsSection = () => {
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="section-title">Featured Projects</h2>
-          <p className="section-subtitle">Excellence in Every Structure</p>
+          <p className="section-subtitle">Building Strength in Nepal's Terrain</p>
           <p className="text-construction-gray">
-            Explore our portfolio of successful projects that demonstrate our commitment to quality, innovation, and client satisfaction across various industries.
+            Explore our portfolio of successful wall construction projects that demonstrate our commitment to quality, innovation, and environmental responsibility across different sites in Nepal.
           </p>
         </div>
         
@@ -81,22 +82,5 @@ const ProjectsSection = () => {
     </section>
   );
 };
-
-const ArrowRight = ({ size = 24 }: { size?: number }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="M5 12h14"></path>
-    <path d="m12 5 7 7-7 7"></path>
-  </svg>
-);
 
 export default ProjectsSection;
