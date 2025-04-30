@@ -13,7 +13,7 @@ const HeroSection = () => {
       </div>
       <div className="container-custom relative z-10 text-white">
         <div className="max-w-3xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Nigalaghari Construction</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Soyami Construction</h1>
           <p className="text-xl mb-4 text-gray-100">
             Building reliable infrastructure for Nepal's challenging terrain.
           </p>

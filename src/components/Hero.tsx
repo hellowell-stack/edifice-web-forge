@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="container-custom relative z-10 text-white">
         <div className="max-w-3xl animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Nigalaghari & Khotro <span className="text-construction-yellow">Construction</span> Projects
+            Soyami <span className="text-construction-yellow">Construction</span> Projects
           </h1>
           <p className="text-lg md:text-xl mb-8 text-gray-100">
             Building Strength Where It Matters Most. Specializing in gabion walls, stone masonry, and concrete structures in Nepal's challenging terrain.

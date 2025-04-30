@@ -25,11 +25,11 @@ const AboutSection = () => {
           </div>
           
           <div className="lg:w-1/2">
-            <h2 className="section-title">About Nigalaghari Construction</h2>
+            <h2 className="section-title">About Soyami Construction</h2>
             <p className="section-subtitle">Excellence in Wall Construction & Stability</p>
             
             <p className="mb-6 text-construction-gray">
-              Established to meet the unique construction challenges of Nepal's hilly terrain, Nigalaghari Construction specializes in building robust structures that withstand the test of time and nature. Our focus on gabion walls, stone masonry, and concrete structures has made us a trusted partner for communities seeking reliable infrastructure solutions.
+              Established to meet the unique construction challenges of Nepal's hilly terrain, Soyami Construction specializes in building robust structures that withstand the test of time and nature. Our focus on gabion walls, stone masonry, and concrete structures has made us a trusted partner for communities seeking reliable infrastructure solutions.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">

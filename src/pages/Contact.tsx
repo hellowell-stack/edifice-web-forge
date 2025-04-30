@@ -59,7 +59,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-construction-blue">Address</h4>
                       <p className="text-construction-gray">
-                        Nigalaghari & Khotro<br />
+                        Soyami<br />
                         Lalitpur, Nepal
                       </p>
                     </div>
@@ -85,8 +85,8 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-construction-blue">Email</h4>
                       <p className="text-construction-gray">
-                        info@nigalaghariconst.com<br />
-                        projects@nigalaghariconst.com
+                        info@soyami.com<br />
+                        projects@soyami.com
                       </p>
                     </div>
                   </div>
@@ -125,7 +125,7 @@ const Contact = () => {
                         className={errors.name ? "border-red-500" : ""}
                       />
                       {errors.name && (
-                        <span className="text-red-500 text-sm">{errors.name.message}</span>
+                        <span className="text-red-500 text-sm">{errors.name.message as string}</span>
                       )}
                     </div>
                     
@@ -147,7 +147,7 @@ const Contact = () => {
                         className={errors.email ? "border-red-500" : ""}
                       />
                       {errors.email && (
-                        <span className="text-red-500 text-sm">{errors.email.message}</span>
+                        <span className="text-red-500 text-sm">{errors.email.message as string}</span>
                       )}
                     </div>
                   </div>
@@ -163,7 +163,7 @@ const Contact = () => {
                       className={errors.phone ? "border-red-500" : ""}
                     />
                     {errors.phone && (
-                      <span className="text-red-500 text-sm">{errors.phone.message}</span>
+                      <span className="text-red-500 text-sm">{errors.phone.message as string}</span>
                     )}
                   </div>
                   
@@ -179,7 +179,7 @@ const Contact = () => {
                       className={errors.message ? "border-red-500" : ""}
                     />
                     {errors.message && (
-                      <span className="text-red-500 text-sm">{errors.message.message}</span>
+                      <span className="text-red-500 text-sm">{errors.message.message as string}</span>
                     )}
                   </div>
                   

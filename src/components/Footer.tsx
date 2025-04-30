@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-6">BuildForge<span className="text-construction-yellow">.</span></h3>
+            <h3 className="text-2xl font-bold mb-6">Soyami<span className="text-construction-yellow">.</span></h3>
             <p className="mb-6 text-gray-300">
               Building excellence through innovation, precision, and dedication to quality in every project we undertake.
             </p>
@@ -114,7 +114,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} BuildForge. All rights reserved.
+            © {new Date().getFullYear()} Soyami. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-gray-400">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

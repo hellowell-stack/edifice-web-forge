@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-bold text-construction-blue">BuildForge<span className="text-construction-yellow">.</span></span>
+            <span className="text-2xl font-bold text-construction-blue">Soyami<span className="text-construction-yellow">.</span></span>
           </Link>
 
           {/* Desktop Menu */}
