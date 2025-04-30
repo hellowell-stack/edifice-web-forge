@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
-import { Wrench, Building, Tools } from 'lucide-react';
+import { Wrench, Building, HardHat } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -24,7 +24,7 @@ const Services = () => {
       id: 2,
       title: "Infrastructure Development",
       description: "We specialize in developing robust infrastructure that stands the test of time. Our team has extensive experience in roads, bridges, drainage systems, and public facilities that serve communities effectively.",
-      icon: Tools,
+      icon: HardHat,
       features: [
         "Road construction and rehabilitation",
         "Bridge construction and maintenance",
